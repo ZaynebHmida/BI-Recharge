@@ -1,5 +1,5 @@
 
-                                                           A power BI Dashboard for subscriptions
+                                                    A power BI Dashboard for subscriptions
 
 
 
@@ -7,55 +7,72 @@
 
 Le Dashboard actuel contient 4 pages :
 
-La première page :
-La première page s'occupe des abonnements par mois. J’ai créé une colonne (Active subscription) qui est égale à 1 si seulement les trois champs (status, nb abonnements active et méthode de payement) sont réglés (status= active & nb abonnements active=1 & méthode de payement= valide) pour s'assurer à 100% que chaque abonnement est actif. D’après le mois d’abonnement de chaque cliente, il dégage la moyenne des mois d’abonnement pour la totalité.
+La premiÃ¨re page :
+La premiÃ¨re page s'occupe des abonnements par mois. Jâ€™ai crÃ©Ã© une colonne (Active subscription) qui est Ã©gale Ã  1 si seulement les trois champs (status, nb abonnements active et mÃ©thode de payement) sont rÃ©glÃ©s (status= active & nb abonnements active=1 & mÃ©thode de payement= valide) pour s'assurer Ã  100% que chaque abonnement est actif. Dâ€™aprÃ¨s le mois dâ€™abonnement de chaque cliente, il dÃ©gage la moyenne des mois dâ€™abonnement pour la totalitÃ©.
+
+![1](https://user-images.githubusercontent.com/47888237/107131708-256ca080-68d9-11eb-9cd3-f6465db71b93.PNG)
+
  
 Donc, on dispose aujourd'hui de 52 abonnements actifs. 
-Dans la deuxième partie de la page1, on a deux graphiques en cascades.
-La première représente les abonnements toujours actifs par mois et la deuxième représente celles en mois actuel (mai) pour le moment.
+Dans la deuxiÃ¨me partie de la page1, on a deux graphiques en cascades.
+La premiÃ¨re reprÃ©sente les abonnements toujours actifs par mois et la deuxiÃ¨me reprÃ©sente celles en mois actuel (mai) pour le moment.
+
+
+![2](https://user-images.githubusercontent.com/47888237/107131709-26053700-68d9-11eb-8b2f-e0f7aca7d3f7.PNG)
+
+ 
+Dans la troisiÃ¨me partie, on sâ€™occupe des dÃ©sabonnements. Aussi, il existe deux graphiques en cascades. La premiÃ¨re illustre les dÃ©sabonnements par mois et la deuxiÃ¨me sâ€™occupe de celles du mois actuel.
+ 
+
+![3](https://user-images.githubusercontent.com/47888237/107131710-269dcd80-68d9-11eb-9e2e-b7b554540098.PNG)
+
+
+La deuxiÃ¨me page :
+On va s'occuper de ces abonnements qui sont Ã  100% valides (filtre pour les abonnements dont "Active abonnement=1").
+Un autre filtre est exercÃ© ici pour laisser seulement les produits de type sÃ©rum pour calculer le nb flacons rÃ©alisÃ©s.
+J'ai mis un petit tableau selon la taille du flacon : flacons de 12 ml, de 30ml et le dernier est de 60 ml. Suite Ã  ce petit tab, jâ€™ai mis un histogramme empilÃ© qui permet de visualiser les flacons rÃ©currents par mois.
 
 
 
-
-
-
+![4](https://user-images.githubusercontent.com/47888237/107131699-1f76bf80-68d9-11eb-8739-c87609f2590b.PNG)
 
 
  
-Dans la troisième partie, on s’occupe des désabonnements. Aussi, il existe deux graphiques en cascades. La première illustre les désabonnements par mois et la deuxième s’occupe de celles du mois actuel.
+Enfin, il existe un petit histogramme pour les flacons rÃ©currents pour le mois actuel.
+
+
+ ![5](https://user-images.githubusercontent.com/47888237/107131700-20a7ec80-68d9-11eb-8e03-c127c5a16174.PNG)
+
+
+La troisiÃ¨me page :
+ Cette page sâ€™occupe des flacons vendus en total. Elle illustre dans le premier tableau tous les ventes en quantitÃ© et prix rÃ©currents puis hors taxe pour arriver Ã  calculer le chiffre dâ€™affaire en totalitÃ©.
  
-
-
-
-
-
-La deuxième page :
-On va s'occuper de ces abonnements qui sont à 100% valides (filtre pour les abonnements dont "Active abonnement=1").
-Un autre filtre est exercé ici pour laisser seulement les produits de type sérum pour calculer le nb flacons réalisés.
-J'ai mis un petit tableau selon la taille du flacon : flacons de 12 ml, de 30ml et le dernier est de 60 ml. Suite à ce petit tab, j’ai mis un histogramme empilé qui permet de visualiser les flacons récurrents par mois.
-
-
-
-
+ 
+ ![6](https://user-images.githubusercontent.com/47888237/107131701-21408300-68d9-11eb-8bf5-ee10d2e35b08.PNG)
 
 
  
-Enfin, il existe un petit histogramme pour les flacons récurrents pour le mois actuel.
+Par la suite, pour une meilleure vision, jâ€™ai mis un graphique en cascade et un tableau pour visualiser lâ€™Ã©volution du CA HT par mois dÃ©s la crÃ©ation de la boutique.
  
-La troisième page :
- Cette page s’occupe des flacons vendus en total. Elle illustre dans le premier tableau tous les ventes en quantité et prix récurrents puis hors taxe pour arriver à calculer le chiffre d’affaire en totalité.
  
-Par la suite, pour une meilleure vision, j’ai mis un graphique en cascade et un tableau pour visualiser l’évolution du CA HT par mois dés la création de la boutique.
- 
-Vers la fin de cette page, j’ai mis un tableau qui illustre le CA HT pour le reste du mois actuel en cas d’absence des désabonnements.
+ ![7](https://user-images.githubusercontent.com/47888237/107131752-96ac5380-68d9-11eb-9145-ebcd5518cc3e.PNG)
+
 
  
+Vers la fin de cette page, jâ€™ai mis un tableau qui illustre le CA HT pour le reste du mois actuel en cas dâ€™absence des dÃ©sabonnements.
 
 
 
+![8](https://user-images.githubusercontent.com/47888237/107131704-230a4680-68d9-11eb-96cf-745c3b1beed6.PNG)
 
 
-La quatrième page :
 
-Dans cette dernière page, on s’occupe des détails des prévisionnels flacons récurrents pour le reste du mois actuel ainsi que pour le mois prochain.
+La quatriÃ¨me page :
+
+Dans cette derniÃ¨re page, on sâ€™occupe des dÃ©tails des prÃ©visionnels flacons rÃ©currents pour le reste du mois actuel ainsi que pour le mois prochain.
+
+![9](https://user-images.githubusercontent.com/47888237/107131705-243b7380-68d9-11eb-8bc6-06fbb24f9172.PNG)
+
+
+
 
